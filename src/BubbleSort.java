@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BubbleSort extends Swap{
     public static void main(String[] args)  {
         int[] arr = new int[10];
-        int random = 0;
+        int random;
 
         for (int i = 0; i < 10; i++) {
             random = (int) (Math.random()*45) + 1;
